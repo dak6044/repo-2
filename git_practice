@@ -1,0 +1,40 @@
+oscm
+git download
+make a folder as ur local repo
+init it username & giemail config
+        git init
+        git config --global user.name "name"
+        git config --global user.email "emailid"
+3 phases facing
+if changes again add and commit
+log checking
+use sha code to get back files
+get back files git reset command
+            git reset --soft shacode
+            git reset head filename
+            git reset --mixed shacode
+giving collaboration access
+downloading from git repo
+creating branch 
+            git branch
+            git branch master-1
+            git checkout master-1
+            git checkout -b master-1
+            git log --author
+stash memory
+           git stash list 
+           git stash save "lable"
+           git stash pop                 : to get back stash 
+           git stash apply               : 
+           git stash drop                :
+
+ remote branches
+        origin master,
+           git fetch - 
+           git merge -git  
+           git pull
+ conflicts 
+        abort : git merge --abort
+        manual : developer help; vi
+
+           
