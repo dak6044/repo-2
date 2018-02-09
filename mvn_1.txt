@@ -1,0 +1,48 @@
+mvn_1
+* first install jdk in your system 
+* set java environmental variable
+* after that extract maven files in your local system
+* set maven environmental variable
+* in maven evry different project has different folder structure
+    we have to create folder structure
+* we'll execute a command, based upon our project we
+   select a project which matches to our project
+      1. Open cmd with your maven folder path
+      2. type mvn archetype:generate  ; you'll
+            get a list of projects
+      3. select a project number
+          select a version num
+          give group id, artifact id (based on your art_id a folder will create in that the folder structure will be created)
+          give version name
+          give package name (package name and groupid name are always same)
+          conform the configuaration by giving yes
+* you'll get build success message.
+   with your artifact_id it will create a folder
+   
+* If you open that folder, there will be src and pom.xml
+     files 
+         in src, besed on your group_id. a folder 
+          will be there
+      POM.XML (project object management tool)
+            in this maven co-ordinates like
+              group_id, artifact_id, etc... 
+              well as meta data, build information 
+              i.e. executable file info, dependancies, 
+              resources everything will be in it.
+     all it will create automatically, but in ant you
+      have to create it manually
+* what and all in pom.xml, that is for folder structure
+   program
+* Now to execute goals: In maven 23 phases are there
+      regularly we use 4 or 5
+         In that 1. validate
+                        to check weather the data is 
+                          validate or not
+                 2. compile
+                 3. test
+                 4. package
+                 5. integration-test
+                 6. verify
+                 7. install
+                 8. deploye
+          
