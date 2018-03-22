@@ -1,0 +1,40 @@
+source code management 
+ you'll develop the code in your local system and commit it 
+  if you want make any changes y'll fetch d the data and 
+  you will push the data into the central repository using 
+  the tools like git.
+     here you'll use  git
+
+run unit test
+
+
+
+build artifacts
+   it is like adornment, you'll learn build artivfacts and store
+      artifacts inthis  
+      here you'll use maven and ant
+
+
+unit test 
+   after you commit the code you'll run unit test,
+    it will be multiple, first you'll chek for the perfomance
+     weather it is working fine or not, if it is not you would 
+     try to make changes according to the infrastructure point of view
+     as well as the application point of view
+
+       here you'll use selenium like tools
+
+
+binary repo
+
+deploy (configuaration magmt)
+   first you'll deploy your test environment, and you'll
+    go the development and valuation etc..
+after the deploy you build the application, after this you'll 
+ run load and functional test
+   chef puppet like that tools you can also use docker mgmt
+
+
+release into the production
+
+
