@@ -1,40 +1,43 @@
-source code management 
- you'll develop the code in your local system and commit it 
-  if you want make any changes y'll fetch d the data and 
-  you will push the data into the central repository using 
+DEVOPS life cycle
+
+1. source code management 
+ first you'll develop the code in your local system and commit it. 
+  If you want to make any changes y'll fetch the data and do changes.
+  and again it will committed and  pushed into the central repository using 
   the tools like git.
-     here you'll use  git
-
-run unit test
+     here you'll use  git/snv(subversion)
 
 
+ 
 
-build artifacts
-   it is like adornment, you'll learn build artivfacts and store
-      artifacts inthis  
+
+2.build artifacts
+   it is like adornment, you'll learn build artifacts and store
+      artifacts in this  
       here you'll use maven and ant
 
-
-unit test 
+3.unit test 
    after you commit the code you'll run unit test,
-    it will be multiple, first you'll chek for the perfomance
-     weather it is working fine or not, if it is not you would 
+    unit test will be multiple, first you'll do performanc test,
+     to check weather it is working fine or not. If it is not you would 
      try to make changes according to the infrastructure point of view
-     as well as the application point of view
+     as well as from the application point of view.
 
        here you'll use selenium like tools
 
 
-binary repo
 
-deploy (configuaration magmt)
-   first you'll deploy your test environment, and you'll
-    go the development and valuation etc..
-after the deploy you build the application, after this you'll 
- run load and functional test
-   chef puppet like that tools you can also use docker mgmt
+4.binary repo
+
+5.deploy (configuaration magmt)
+   first you'll deploy your test environment, 
+   after the deploy you will build the application, after this you'll 
+   run load and functional test
+   
+  here you'll use chef/puppet, you can also use docker mgmt 
 
 
-release into the production
-
+6.release into the production
+    finally it goes to test environment, like dev, qa, uat, and prod servers
+     If it is fine it will go to production.
 
